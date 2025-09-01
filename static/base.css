@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+h1, h2 {
+    color: darkred;
+}

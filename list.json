@@ -1,0 +1,713 @@
+[
+  {
+    "id": 0,
+    "name": "Calendula (Marigold)",
+    "scientific_name": "Calendula officinalis",
+    "location": "Southern Europe, Mediterranean",
+    "history": "Used in herbal medicine for its anti-inflammatory and wound-healing properties.",
+    "category": "Medicinal Flower",
+    "image_url": "https://images.unsplash.com/photo-1660684475402-d3a8e87679de?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 1,
+    "name": "Kadupul Flower",
+    "scientific_name": "Epiphyllum oxypetalum",
+    "location": "Sri Lanka",
+    "history": "Known as the 'Queen of the Night', this rare cactus flower blooms only at night and wilts before dawn. It has been celebrated in Sri Lankan folklore for centuries.",
+    "image_url": "https://images.unsplash.com/photo-1689954847700-f5e7223fff69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxLYWR1cHVsJTIwRmxvd2VyfGVufDB8fHx8MTc1NjU2MzU1Nnww&ixlib=rb-4.1.0&q=80&w=400",
+    "category": "Rare / Night"
+  },
+  {
+    "id": 2,
+    "name": "Ghost Orchid",
+    "scientific_name": "Dendrophylax lindenii",
+    "location": "Florida, USA & Cuba",
+    "history": "This orchid is leafless and almost translucent, appearing to 'float' in the air. It is notoriously hard to cultivate and considered endangered.",
+    "image_url": "https://images.unsplash.com/photo-1755978728811-2827698eb41d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxHaG9zdCUyME9yY2hpZHxlbnwwfHx8fDE3NTY1NjM1NTd8MA&ixlib=rb-4.1.0&q=80&w=400",
+    "category": "Rare"
+  },
+  {
+    "id": 3,
+    "name": "Corpse Flower",
+    "scientific_name": "Amorphophallus titanum",
+    "location": "Sumatra, Indonesia",
+    "history": "Known for its massive size and strong odor resembling rotting flesh, the corpse flower blooms rarely, making it a global botanical event when it does.",
+    "image_url": "https://images.unsplash.com/photo-1645574076204-29fafb3178cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxDb3Jwc2UlMjBGbG93ZXJ8ZW58MHx8fHwxNzU2NTYzNTU3fDA&ixlib=rb-4.1.0&q=80&w=400",
+    "category": "Rare"
+  },
+  {
+    "id": 4,
+    "name": "Youtan Poluo",
+    "scientific_name": "Undocumented (mythical flower)",
+    "location": "East Asia (China, Korea, Taiwan)",
+    "history": "Said to bloom only once every 3,000 years according to Buddhist legend, this tiny flower has mysterious origins and is steeped in folklore.",
+    "image_url": "https://images.unsplash.com/photo-1669699739247-54f20092f9d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxZb3V0YW4lMjBQb2x1b3xlbnwwfHx8fDE3NTY1NjM1NTh8MA&ixlib=rb-4.1.0&q=80&w=400",
+    "category": "Mythical / Rare"
+  },
+  {
+    "id": 5,
+    "name": "Jade Vine",
+    "scientific_name": "Strongylodon macrobotrys",
+    "location": "Philippines",
+    "history": "Recognized for its turquoise-colored claw-shaped flowers, the jade vine is a rare tropical plant that is endangered due to habitat loss.",
+    "image_url": "https://images.unsplash.com/photo-1605315291921-1237fcaa07cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxKYWRlJTIwVmluZXxlbnwwfHx8fDE3NTY1NjM1NTl8MA&ixlib=rb-4.1.0&q=80&w=400",
+    "category": "Rare / Beautiful"
+  },
+  {
+    "id": 6,
+    "name": "Middlemist Red",
+    "scientific_name": "Camellia japonica",
+    "location": "United Kingdom & New Zealand",
+    "history": "Considered one of the rarest flowers in the world, with only two known plants in existence. Originally imported from China in the early 19th century.",
+    "image_url": "https://images.unsplash.com/photo-1609555799352-9e7f9951e70a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxNaWRkbGVtaXN0JTIwUmVkfGVufDB8fHx8MTc1NjU2MzU2MHww&ixlib=rb-4.1.0&q=80&w=400",
+    "category": "Rare"
+  },
+  {
+    "id": 7,
+    "name": "Chilean Bellflower",
+    "scientific_name": "Lapageria rosea",
+    "location": "Chile",
+    "history": "This national flower of Chile is prized for its elegant, bell-shaped blossoms. It has historical ties to the indigenous Mapuche people.",
+    "image_url": "https://images.unsplash.com/photo-1686016531891-13243ce00a53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxDaGlsZWFuJTIwQmVsbGZsb3dlcnxlbnwwfHx8fDE3NTY1NjM1NjF8MA&ixlib=rb-4.1.0&q=80&w=400",
+    "category": "Rare / Beautiful"
+  },
+  {
+    "id": 8,
+    "name": "Gibraltar Campion",
+    "scientific_name": "Silene tomentosa",
+    "location": "Gibraltar",
+    "history": "Thought extinct until rediscovered in 1994 on the cliffs of Gibraltar. It is protected and cultivated in botanical gardens today.",
+    "image_url": "https://images.unsplash.com/photo-1667317475363-8e710abd4cde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxHaWJyYWx0YXIlMjBDYW1waW9ufGVufDB8fHx8MTc1NjU2MzU2Mnww&ixlib=rb-4.1.0&q=80&w=400",
+    "category": "Rare"
+  },
+  {
+    "id": 9,
+    "name": "Chocolate Cosmos",
+    "scientific_name": "Cosmos atrosanguineus",
+    "location": "Mexico",
+    "history": "Famous for its deep maroon petals and chocolate-like fragrance. Extinct in the wild, but preserved through cultivation.",
+    "image_url": "https://images.unsplash.com/photo-1659386861010-216dfd5a78ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxDaG9jb2xhdGUlMjBDb3Ntb3N8ZW58MHx8fHwxNzU2NTYzNTYzfDA&ixlib=rb-4.1.0&q=80&w=400",
+    "category": "Rare / Fragrant"
+  },
+  {
+    "id": 10,
+    "name": "Parrot's Beak",
+    "scientific_name": "Lotus berthelotii",
+    "location": "Canary Islands",
+    "history": "A striking flower with fiery red-orange curved petals resembling a parrot’s beak. It is critically endangered in its natural habitat.",
+    "image_url": "https://images.unsplash.com/photo-1754994641898-b6fc6ace3f6d?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw2fHxwYXJyb3QlMjdzJTIwYmVhayUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NDkzfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rare / Beautiful"
+  },
+  {
+    "id": 0,
+    "name": "Calendula (Marigold)",
+    "scientific_name": "Calendula officinalis",
+    "location": "Southern Europe, Mediterranean",
+    "history": "Used in herbal medicine for its anti-inflammatory and wound-healing properties.",
+    "category": "Medicinal Flower",
+    "image_url": "https://images.unsplash.com/photo-1564639869273-7a2a7f4f9e5e?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw1fHxjYWxlbmR1bGElMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzQ5NHww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 1,
+    "name": "Kadupul Flower",
+    "scientific_name": "Epiphyllum oxypetalum",
+    "location": "Sri Lanka",
+    "history": "Known as the 'Queen of the Night', this rare cactus flower blooms only at night and wilts before dawn. It has been celebrated in Sri Lankan folklore for centuries.",
+    "image_url": "https://images.unsplash.com/photo-1746559934216-3b0edeb89431?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw4fHxrYWR1cHVsJTIwZmxvd2VyJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc0OTV8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rare / Night"
+  },
+  {
+    "id": 2,
+    "name": "Ghost Orchid",
+    "scientific_name": "Dendrophylax lindenii",
+    "location": "Florida, USA & Cuba",
+    "history": "This orchid is leafless and almost translucent, appearing to 'float' in the air. It is notoriously hard to cultivate and considered endangered.",
+    "image_url": "https://images.unsplash.com/photo-1580756749819-f25c4b052359?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwyfHxnaG9zdCUyMG9yY2hpZCUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NDk3fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rare"
+  },
+  {
+    "id": 3,
+    "name": "Corpse Flower",
+    "scientific_name": "Amorphophallus titanum",
+    "location": "Sumatra, Indonesia",
+    "history": "Known for its massive size and strong odor resembling rotting flesh, the corpse flower blooms rarely, making it a global botanical event when it does.",
+    "image_url": "https://images.unsplash.com/photo-1730293790579-f18091fdc813?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw0fHxjb3Jwc2UlMjBmbG93ZXIlMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzQ5OHww&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rare"
+  },
+  {
+    "id": 4,
+    "name": "Youtan Poluo",
+    "scientific_name": "Undocumented (mythical flower)",
+    "location": "East Asia (China, Korea, Taiwan)",
+    "history": "Said to bloom only once every 3,000 years according to Buddhist legend, this tiny flower has mysterious origins and is steeped in folklore.",
+    "image_url": "https://images.unsplash.com/photo-1564639869273-7a2a7f4f9e5e?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwyfHx5b3V0YW4lMjBwb2x1byUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NDk5fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Mythical / Rare"
+  },
+  {
+    "id": 5,
+    "name": "Jade Vine",
+    "scientific_name": "Strongylodon macrobotrys",
+    "location": "Philippines",
+    "history": "Recognized for its turquoise-colored claw-shaped flowers, the jade vine is a rare tropical plant that is endangered due to habitat loss.",
+    "image_url": "https://images.unsplash.com/photo-1649705479550-3a592456e604?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw3fHxqYWRlJTIwdmluZSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTAwfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rare / Beautiful"
+  },
+  {
+    "id": 6,
+    "name": "Middlemist Red",
+    "scientific_name": "Camellia japonica",
+    "location": "United Kingdom & New Zealand",
+    "history": "Considered one of the rarest flowers in the world, with only two known plants in existence. Originally imported from China in the early 19th century.",
+    "image_url": "https://images.unsplash.com/photo-1723024690897-049b91f65154?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxtaWRkbGVtaXN0JTIwcmVkJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1MDJ8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rare"
+  },
+  {
+    "id": 7,
+    "name": "Chilean Bellflower",
+    "scientific_name": "Lapageria rosea",
+    "location": "Chile",
+    "history": "This national flower of Chile is prized for its elegant, bell-shaped blossoms. It has historical ties to the indigenous Mapuche people.",
+    "image_url": "https://images.unsplash.com/photo-1746559934216-3b0edeb89431?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxjaGlsZWFuJTIwYmVsbGZsb3dlciUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTAzfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rare / Beautiful"
+  },
+  {
+    "id": 8,
+    "name": "Gibraltar Campion",
+    "scientific_name": "Silene tomentosa",
+    "location": "Gibraltar",
+    "history": "Thought extinct until rediscovered in 1994 on the cliffs of Gibraltar. It is protected and cultivated in botanical gardens today.",
+    "image_url": "https://images.unsplash.com/photo-1724395093020-74aabac4c5be?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxnaWJyYWx0YXIlMjBjYW1waW9uJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1MDR8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rare"
+  },
+  {
+    "id": 9,
+    "name": "Chocolate Cosmos",
+    "scientific_name": "Cosmos atrosanguineus",
+    "location": "Mexico",
+    "history": "Famous for its deep maroon petals and chocolate-like fragrance. Extinct in the wild, but preserved through cultivation.",
+    "image_url": "https://images.unsplash.com/photo-1730293790579-f18091fdc813?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw2fHxjaG9jb2xhdGUlMjBjb3Ntb3MlMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUwNXww&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rare / Fragrant"
+  },
+  {
+    "id": 10,
+    "name": "Parrot's Beak",
+    "scientific_name": "Lotus berthelotii",
+    "location": "Canary Islands",
+    "history": "A striking flower with fiery red-orange curved petals resembling a parrot’s beak. It is critically endangered in its natural habitat.",
+    "image_url": "https://images.unsplash.com/photo-1754994641898-b6fc6ace3f6d?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw2fHxwYXJyb3QlMjdzJTIwYmVhayUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NDkzfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rare / Beautiful"
+  },
+  {
+    "id": 11,
+    "name": "Tiger Lily",
+    "scientific_name": "Lilium lancifolium",
+    "location": "Asia (China, Japan, Korea)",
+    "history": "Known for its bright orange petals with dark spots. Symbolizes wealth and pride in Asian cultures.",
+    "image_url": "https://images.unsplash.com/photo-1743712978573-b214a97c1ff3?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxMHx8dGlnZXIlMjBsaWx5JTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1MDd8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Lily"
+  },
+  {
+    "id": 12,
+    "name": "Madonna Lily",
+    "scientific_name": "Lilium candidum",
+    "location": "Mediterranean",
+    "history": "One of the oldest cultivated lilies, associated with purity and often seen in religious art.",
+    "image_url": "https://images.unsplash.com/photo-1688312911062-9d54c7c3c38d?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxtYWRvbm5hJTIwbGlseSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTA5fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Lily"
+  },
+  {
+    "id": 13,
+    "name": "Stargazer Lily",
+    "scientific_name": "Lilium orientalis",
+    "location": "Hybrid (developed in 1970s)",
+    "history": "A hybrid lily with upward-facing blooms, symbolizing ambition and success.",
+    "image_url": "https://images.unsplash.com/photo-1752934608043-246feb786874?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxMHx8c3RhcmdhemVyJTIwbGlseSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTEwfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Lily"
+  },
+  {
+    "id": 14,
+    "name": "Turk’s Cap Lily",
+    "scientific_name": "Lilium martagon",
+    "location": "Europe & Asia",
+    "history": "Named for its reflexed petals resembling a turban, prized in old cottage gardens.",
+    "image_url": "https://images.unsplash.com/photo-1533286500103-c8ce18a2a3f0?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw5fHx0dXJrJUUyJTgwJTk5cyUyMGNhcCUyMGxpbHklMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUxMXww&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Lily"
+  },
+  {
+    "id": 15,
+    "name": "Easter Lily",
+    "scientific_name": "Lilium longiflorum",
+    "location": "Ryukyu Islands, Japan",
+    "history": "A white lily widely associated with Easter celebrations, symbolizing purity and renewal.",
+    "image_url": "https://images.unsplash.com/photo-1709256901466-f5f0dcd0aa88?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw2fHxlYXN0ZXIlMjBsaWx5JTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1MTN8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Lily"
+  },
+  {
+    "id": 16,
+    "name": "Damask Rose",
+    "scientific_name": "Rosa × damascena",
+    "location": "Middle East",
+    "history": "Cultivated for centuries for its fragrance, widely used in perfumes and rose water.",
+    "image_url": "https://images.unsplash.com/photo-1587371921769-eda287cc0209?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxkYW1hc2slMjByb3NlJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1MTR8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rose / Fragrant"
+  },
+  {
+    "id": 17,
+    "name": "Blue Moon Rose",
+    "scientific_name": "Rosa hybrida",
+    "location": "Germany",
+    "history": "A rare lilac-blue rose hybrid, representing mystery and uniqueness.",
+    "image_url": "https://images.unsplash.com/photo-1546526423-692c8aea931e?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwzfHxibHVlJTIwbW9vbiUyMHJvc2UlMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUxNnww&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rose"
+  },
+  {
+    "id": 18,
+    "name": "Moss Rose",
+    "scientific_name": "Rosa centifolia muscosa",
+    "location": "France",
+    "history": "A mutation of the centifolia rose, known for its fragrant moss-like sepals.",
+    "image_url": "https://images.unsplash.com/photo-1697842609346-9b810f0aee3c?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwyfHxtb3NzJTIwcm9zZSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTE3fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rose / Fragrant"
+  },
+  {
+    "id": 19,
+    "name": "Black Baccara Rose",
+    "scientific_name": "Rosa 'Black Baccara'",
+    "location": "France",
+    "history": "A nearly black rose cultivar, highly prized for its unique velvety petals.",
+    "image_url": "https://images.unsplash.com/photo-1653286065671-3e11c66f8cea?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwyfHxibGFjayUyMGJhY2NhcmElMjByb3NlJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1MTh8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rose"
+  },
+  {
+    "id": 20,
+    "name": "Persian Yellow Rose",
+    "scientific_name": "Rosa foetida",
+    "location": "Western Asia",
+    "history": "Known for its deep golden blooms, introduced to Europe in the 16th century.",
+    "image_url": "https://images.unsplash.com/photo-1750213438390-53db2811851f?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxwZXJzaWFuJTIweWVsbG93JTIwcm9zZSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTIwfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Rose"
+  },
+  {
+    "id": 21,
+    "name": "Arabian Jasmine",
+    "scientific_name": "Jasminum sambac",
+    "location": "South & Southeast Asia",
+    "history": "National flower of the Philippines and symbol of purity in India. Widely used in garlands and perfumes.",
+    "image_url": "https://images.unsplash.com/photo-1701733642734-fbace5c96b70?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw5fHxhcmFiaWFuJTIwamFzbWluZSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTIxfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Jasmine / Fragrant / Night"
+  },
+  {
+    "id": 22,
+    "name": "Spanish Jasmine",
+    "scientific_name": "Jasminum grandiflorum",
+    "location": "South Asia, Mediterranean",
+    "history": "Cultivated for its strong fragrance, used in traditional perfumery and Ayurveda.",
+    "image_url": "https://images.unsplash.com/photo-1701733642734-fbace5c96b70?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw3fHxzcGFuaXNoJTIwamFzbWluZSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTIyfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop",
+    "category": "Jasmine / Fragrant"
+  },
+  {
+    "id": 23,
+    "name": "Winter Jasmine",
+    "scientific_name": "Jasminum nudiflorum",
+    "location": "China",
+    "history": "Known for blooming in winter with bright yellow flowers, symbolizing hope.",
+    "category": "Jasmine",
+    "image_url": "https://images.unsplash.com/photo-1609097476954-8d80aa3bb6ea?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwyfHx3aW50ZXIlMjBqYXNtaW5lJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1MjN8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 24,
+    "name": "Wild Jasmine",
+    "scientific_name": "Jasminum fruticans",
+    "location": "Mediterranean region",
+    "history": "A hardy shrub with small yellow flowers, mentioned in ancient herbal medicine.",
+    "category": "Jasmine",
+    "image_url": "https://images.unsplash.com/photo-1701733642734-fbace5c96b70?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw3fHx3aWxkJTIwamFzbWluZSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTI0fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 25,
+    "name": "Pink Jasmine",
+    "scientific_name": "Jasminum polyanthum",
+    "location": "China",
+    "history": "A vigorous climber producing clusters of pink buds that open into fragrant white flowers.",
+    "category": "Jasmine",
+    "image_url": "https://images.unsplash.com/photo-1753483950093-2eb28f43afc9?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw0fHxwaW5rJTIwamFzbWluZSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTI2fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 26,
+    "name": "Blue Poppy",
+    "scientific_name": "Meconopsis betonicifolia",
+    "location": "Himalayas (Bhutan, Tibet, India)",
+    "history": "National flower of Bhutan, known as the 'Himalayan Blue Poppy'. Famous for its rare sky-blue petals.",
+    "category": "Poppy",
+    "image_url": "https://images.unsplash.com/photo-1546526423-692c8aea931e?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw4fHxibHVlJTIwcG9wcHklMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUyN3ww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 27,
+    "name": "Edelweiss",
+    "scientific_name": "Leontopodium alpinum",
+    "location": "Alps (Europe)",
+    "history": "Symbol of rugged beauty, often linked to love and courage in alpine folklore.",
+    "category": "Alpine Flower",
+    "image_url": "https://images.unsplash.com/photo-1551640154-c1191e5a0e63?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw5fHxlZGVsd2Vpc3MlMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUyOHww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 28,
+    "name": "Rhododendron Arboreum",
+    "scientific_name": "Rhododendron arboreum",
+    "location": "Himalayas, Nepal",
+    "history": "The national flower of Nepal, blooming in scarlet across mountain slopes in spring.",
+    "category": "Rhododendron",
+    "image_url": "https://images.unsplash.com/photo-1714919546844-55006751562d?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw5fHxyaG9kb2RlbmRyb24lMjBhcmJvcmV1bSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTMwfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 29,
+    "name": "Snow Lotus",
+    "scientific_name": "Saussurea obvallata",
+    "location": "Himalayas & Tibet",
+    "history": "A rare medicinal flower that grows at high altitudes, revered in Ayurveda and Tibetan medicine.",
+    "category": "Lotus",
+    "image_url": "https://images.unsplash.com/photo-1580581682823-a1fe288e704c?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwyfHxzbm93JTIwbG90dXMlMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUzMXww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 30,
+    "name": "Primula Denticulata",
+    "scientific_name": "Primula denticulata",
+    "location": "Himalayas",
+    "history": "Also called the 'Drumstick Primrose', it produces bright purple globe-like flower clusters.",
+    "category": "Primrose",
+    "image_url": "https://images.unsplash.com/photo-1669066495455-485db6a049c5?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxwcmltdWxhJTIwZGVudGljdWxhdGElMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUzMnww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 31,
+    "name": "Orchid",
+    "scientific_name": "Orchidaceae family",
+    "location": "Worldwide",
+    "history": "One of the largest flower families, orchids are admired for their intricate patterns and exotic beauty.",
+    "category": "Orchid",
+    "image_url": "https://images.unsplash.com/photo-1677085971806-1a46548ebcfa?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw1fHxvcmNoaWQlMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUzNHww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 32,
+    "name": "Cherry Blossom",
+    "scientific_name": "Prunus serrulata",
+    "location": "Japan, Korea, China",
+    "history": "Symbol of fleeting beauty and renewal, cherry blossoms are central to Japanese culture and Hanami festivals.",
+    "category": "Blossom",
+    "image_url": "https://images.unsplash.com/photo-1743795126773-f4efde49e45b?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwyfHxjaGVycnklMjBibG9zc29tJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1MzV8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 33,
+    "name": "Lotus",
+    "scientific_name": "Nelumbo nucifera",
+    "location": "Asia",
+    "history": "Sacred in Hinduism and Buddhism, the lotus symbolizes purity and spiritual awakening.",
+    "category": "Lotus",
+    "image_url": "https://images.unsplash.com/photo-1438170453045-def8dc71416f?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxsb3R1cyUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTM2fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 34,
+    "name": "Tulip",
+    "scientific_name": "Tulipa",
+    "location": "Turkey, Netherlands",
+    "history": "Tulips sparked 'Tulip Mania' in the 17th century Netherlands and are now a global symbol of spring beauty.",
+    "category": "Tulip",
+    "image_url": "https://images.unsplash.com/photo-1554074604-5ab6ae4aeaba?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw5fHx0dWxpcCUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTM3fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 35,
+    "name": "Hydrangea",
+    "scientific_name": "Hydrangea macrophylla",
+    "location": "Japan, Korea, China",
+    "history": "Known for large, colorful clusters of flowers that change shades depending on soil acidity.",
+    "category": "Hydrangea",
+    "image_url": "https://images.unsplash.com/photo-1626050277118-a6eede53f908?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw2fHxoeWRyYW5nZWElMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUzOHww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 36,
+    "name": "Tiger Lily",
+    "scientific_name": "Lilium lancifolium",
+    "location": "Asia",
+    "history": "Known for its bright orange petals with black spots, symbolizing wealth and positivity.",
+    "category": "Lily",
+    "image_url": "https://images.unsplash.com/photo-1743712978573-b214a97c1ff3?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxMHx8dGlnZXIlMjBsaWx5JTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1MDd8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 37,
+    "name": "Casablanca Lily",
+    "scientific_name": "Lilium 'Casa Blanca'",
+    "location": "Japan",
+    "history": "A fragrant pure white lily, often used in weddings and symbolizing celebration.",
+    "category": "Lily",
+    "image_url": "https://images.unsplash.com/photo-1743712978573-b214a97c1ff3?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw0fHxjYXNhYmxhbmNhJTIwbGlseSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTQxfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 38,
+    "name": "Damask Rose",
+    "scientific_name": "Rosa damascena",
+    "location": "Middle East",
+    "history": "Cultivated for centuries for its fragrance and use in rose oil and perfumes.",
+    "category": "Rose",
+    "image_url": "https://images.unsplash.com/photo-1587371921769-eda287cc0209?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxkYW1hc2slMjByb3NlJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1MTR8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 39,
+    "name": "Musk Rose",
+    "scientific_name": "Rosa moschata",
+    "location": "Himalayas, India",
+    "history": "A fragrant wild rose species, used historically in ancient gardens.",
+    "category": "Rose",
+    "image_url": "https://images.unsplash.com/photo-1635457357337-98d6bf853365?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw4fHxtdXNrJTIwcm9zZSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTQzfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 40,
+    "name": "Arabian Jasmine",
+    "scientific_name": "Jasminum sambac",
+    "location": "India, Southeast Asia",
+    "history": "National flower of the Philippines, used in garlands and teas.",
+    "category": "Jasmine",
+    "image_url": "https://images.unsplash.com/photo-1701733642734-fbace5c96b70?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw5fHxhcmFiaWFuJTIwamFzbWluZSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTIxfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 41,
+    "name": "Spanish Jasmine",
+    "scientific_name": "Jasminum grandiflorum",
+    "location": "South Asia, Mediterranean",
+    "history": "Famous for perfume production, especially in Grasse, France.",
+    "category": "Jasmine",
+    "image_url": "https://images.unsplash.com/photo-1701733642734-fbace5c96b70?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw3fHxzcGFuaXNoJTIwamFzbWluZSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTIyfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 42,
+    "name": "Blue Poppy",
+    "scientific_name": "Meconopsis betonicifolia",
+    "location": "Himalayas (Bhutan, Tibet, India)",
+    "history": "National flower of Bhutan, known as the 'Himalayan Blue Poppy'.",
+    "category": "Hill Flower",
+    "image_url": "https://images.unsplash.com/photo-1546526423-692c8aea931e?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw4fHxibHVlJTIwcG9wcHklMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUyN3ww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 43,
+    "name": "Edelweiss",
+    "scientific_name": "Leontopodium alpinum",
+    "location": "Alps (Europe)",
+    "history": "Symbol of rugged beauty, often linked to love and courage in alpine folklore.",
+    "category": "Hill Flower",
+    "image_url": "https://images.unsplash.com/photo-1551640154-c1191e5a0e63?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw5fHxlZGVsd2Vpc3MlMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUyOHww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 44,
+    "name": "Rhododendron Arboreum",
+    "scientific_name": "Rhododendron arboreum",
+    "location": "Himalayas, Nepal",
+    "history": "The national flower of Nepal, blooming scarlet on mountain slopes.",
+    "category": "Hill Flower",
+    "image_url": "https://images.unsplash.com/photo-1714919546844-55006751562d?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw5fHxyaG9kb2RlbmRyb24lMjBhcmJvcmV1bSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTMwfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 45,
+    "name": "Orchid",
+    "scientific_name": "Orchidaceae family",
+    "location": "Worldwide",
+    "history": "One of the largest flower families, admired for exotic beauty.",
+    "category": "Beautiful Flower",
+    "image_url": "https://images.unsplash.com/photo-1677085971806-1a46548ebcfa?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw1fHxvcmNoaWQlMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUzNHww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 46,
+    "name": "Cherry Blossom",
+    "scientific_name": "Prunus serrulata",
+    "location": "Japan, Korea, China",
+    "history": "Symbol of fleeting beauty and renewal, central to Japanese Hanami festivals.",
+    "category": "Beautiful Flower",
+    "image_url": "https://images.unsplash.com/photo-1743795126773-f4efde49e45b?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwyfHxjaGVycnklMjBibG9zc29tJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1MzV8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 47,
+    "name": "Lotus",
+    "scientific_name": "Nelumbo nucifera",
+    "location": "Asia",
+    "history": "Sacred in Hinduism and Buddhism, symbolizing purity and awakening.",
+    "category": "Beautiful Flower",
+    "image_url": "https://images.unsplash.com/photo-1438170453045-def8dc71416f?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxsb3R1cyUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTM2fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 48,
+    "name": "Tulip",
+    "scientific_name": "Tulipa",
+    "location": "Turkey, Netherlands",
+    "history": "Famous for 'Tulip Mania' in 17th-century Netherlands, a symbol of spring beauty.",
+    "category": "Beautiful Flower",
+    "image_url": "https://images.unsplash.com/photo-1554074604-5ab6ae4aeaba?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw5fHx0dWxpcCUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTM3fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 49,
+    "name": "Hydrangea",
+    "scientific_name": "Hydrangea macrophylla",
+    "location": "Japan, Korea, China",
+    "history": "Known for large clusters that change color depending on soil acidity.",
+    "category": "Beautiful Flower",
+    "image_url": "https://images.unsplash.com/photo-1626050277118-a6eede53f908?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw2fHxoeWRyYW5nZWElMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzUzOHww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 50,
+    "name": "Gardenia",
+    "scientific_name": "Gardenia jasminoides",
+    "location": "Asia (China, Japan)",
+    "history": "A classic fragrant flower, beloved in perfumes and traditional gardens.",
+    "category": "Fragrance Flower",
+    "image_url": "https://images.unsplash.com/photo-1694127803463-7b264de6e842?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxnYXJkZW5pYSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTQ5fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 51,
+    "name": "Tuberose",
+    "scientific_name": "Polianthes tuberosa",
+    "location": "Mexico, India",
+    "history": "Extensively used in perfumery for its intense, sweet scent, especially in Indian garlands.",
+    "category": "Fragrance Flower",
+    "image_url": "https://images.unsplash.com/photo-1686624641385-9293bd621d52?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHx0dWJlcm9zZSUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTUwfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 52,
+    "name": "Ylang-Ylang",
+    "scientific_name": "Cananga odorata",
+    "location": "Southeast Asia",
+    "history": "Known as the 'flower of flowers', its oil is a key note in Chanel No. 5 perfume.",
+    "category": "Fragrance Flower",
+    "image_url": "https://images.unsplash.com/photo-1730293790579-f18091fdc813?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw5fHx5bGFuZy15bGFuZyUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTUyfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 53,
+    "name": "Sweet Alyssum",
+    "scientific_name": "Lobularia maritima",
+    "location": "Mediterranean region",
+    "history": "Produces small clusters of white flowers with a strong honey fragrance.",
+    "category": "Fragrance Flower",
+    "image_url": "https://images.unsplash.com/photo-1652489994830-5383498dc94f?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxzd2VldCUyMGFseXNzdW0lMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzU1M3ww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 54,
+    "name": "Night-Blooming Jasmine",
+    "scientific_name": "Cestrum nocturnum",
+    "location": "West Indies, South Asia",
+    "history": "Famous for its intense fragrance at night, often grown in temple gardens.",
+    "category": "Night Flower",
+    "image_url": "https://images.unsplash.com/photo-1748005877817-81655bed912a?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxMHx8bmlnaHQtYmxvb21pbmclMjBqYXNtaW5lJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1NTR8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 55,
+    "name": "Moonflower",
+    "scientific_name": "Ipomoea alba",
+    "location": "Tropical and subtropical regions",
+    "history": "A white morning-glory relative, it opens only at night and glows in moonlight.",
+    "category": "Night Flower",
+    "image_url": "https://images.unsplash.com/photo-1746559934216-3b0edeb89431?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwzfHxtb29uZmxvd2VyJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1NTV8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 56,
+    "name": "Brahma Kamal",
+    "scientific_name": "Saussurea obvallata",
+    "location": "Himalayas (India, Bhutan)",
+    "history": "A rare sacred flower that blooms only at night, revered in Hindu mythology.",
+    "category": "Night Flower",
+    "image_url": "https://images.unsplash.com/photo-1565160764754-6c6a6ac75e01?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw3fHxicmFobWElMjBrYW1hbCUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTU3fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 57,
+    "name": "Evening Primrose",
+    "scientific_name": "Oenothera biennis",
+    "location": "North America",
+    "history": "Opens in the evening and is used in herbal medicine for its therapeutic oil.",
+    "category": "Night Flower",
+    "image_url": "https://images.unsplash.com/photo-1649535349777-a566b5f4a047?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw2fHxldmVuaW5nJTIwcHJpbXJvc2UlMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzU1OHww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 58,
+    "name": "Corpse Flower",
+    "scientific_name": "Amorphophallus titanum",
+    "location": "Sumatra, Indonesia",
+    "history": "One of the rarest and largest flowers in the world, famous for its foul smell resembling rotting flesh.",
+    "category": "Rare Flower",
+    "image_url": "https://images.unsplash.com/photo-1730293790579-f18091fdc813?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw0fHxjb3Jwc2UlMjBmbG93ZXIlMjBmbG93ZXJ8ZW58MXwyfHx8MTc1NjU2NzQ5OHww&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 59,
+    "name": "Ghost Orchid",
+    "scientific_name": "Dendrophylax lindenii",
+    "location": "Florida, Cuba",
+    "history": "Extremely rare and almost translucent orchid, often hidden deep in swamps and difficult to cultivate.",
+    "category": "Rare Flower",
+    "image_url": "https://images.unsplash.com/photo-1580756749819-f25c4b052359?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwyfHxnaG9zdCUyMG9yY2hpZCUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NDk3fDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 60,
+    "name": "Middlemist Red",
+    "scientific_name": "Camellia japonica 'Middlemist Red'",
+    "location": "UK (originally from China)",
+    "history": "Considered one of the rarest flowers in the world, with only two known living specimens.",
+    "category": "Rare Flower",
+    "image_url": "https://images.unsplash.com/photo-1723024690897-049b91f65154?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxtaWRkbGVtaXN0JTIwcmVkJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1MDJ8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 61,
+    "name": "Kokio",
+    "scientific_name": "Kokia cookei",
+    "location": "Hawaii",
+    "history": "A critically endangered Hawaiian hibiscus species, rediscovered after being thought extinct.",
+    "category": "Rare Flower",
+    "image_url": "https://images.unsplash.com/photo-1664036402174-7e4a08ff49b4?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxrb2tpbyUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTYwfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 62,
+    "name": "Nerium Oleander",
+    "scientific_name": "Nerium oleander",
+    "location": "Mediterranean region",
+    "history": "A highly toxic shrub with beautiful pink, red, or white blossoms, often used ornamentally.",
+    "category": "Poisonous Flower",
+    "image_url": "https://images.unsplash.com/photo-1564639869273-7a2a7f4f9e5e?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHw4fHxuZXJpdW0lMjBvbGVhbmRlciUyMGZsb3dlcnxlbnwxfDJ8fHwxNzU2NTY3NTYyfDA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 63,
+    "name": "Belladonna (Deadly Nightshade)",
+    "scientific_name": "Atropa belladonna",
+    "location": "Europe, North Africa, Western Asia",
+    "history": "A beautiful but deadly plant historically used in medicine and cosmetics, containing toxic alkaloids.",
+    "category": "Poisonous Flower",
+    "image_url": "https://images.unsplash.com/photo-1614147159865-6ae2ad878dad?ixid=M3w3OTg0NzB8MHwxfHNlYXJjaHwxfHxiZWxsYWRvbm5hJTIwZmxvd2VyfGVufDF8Mnx8fDE3NTY1Njc1NjN8MA&ixlib=rb-4.1.0&w=400&h=400&fit=crop"
+  },
+  {
+    "id": 64,
+    "name": "Angel’s Trumpet",
+    "scientific_name": "Brugmansia",
+    "location": "South America",
+    "history": "Large fragrant flowers shaped like trumpets, but extremely toxic if ingested.",
+    "category": "Poisonous Flower",
+    "image_url": "https://via.placeholder.com/400"
+  },
+  {
+    "id": 65,
+    "name": "Rosary Pea",
+    "scientific_name": "Abrus precatorius",
+    "location": "Tropical regions (India, Africa, Caribbean)",
+    "history": "Beautiful red seeds with a black spot, highly poisonous due to the toxin abrin.",
+    "category": "Poisonous Flower",
+    "image_url": "https://via.placeholder.com/400"
+  },
+  {
+    "id": 66,
+    "name": "Foxglove",
+    "scientific_name": "Digitalis purpurea",
+    "location": "Europe",
+    "history": "Known for its tall spikes of purple flowers, historically used to create heart medication but toxic if misused.",
+    "category": "Poisonous Flower",
+    "image_url": "https://via.placeholder.com/400"
+  },
+  {
+    "id": 67,
+    "name": "Queen of the Night Cactus",
+    "scientific_name": "Epiphyllum oxypetalum",
+    "location": "Central America, India (cultivated)",
+    "history": "A cactus with giant fragrant flowers that bloom just one night a year.",
+    "category": "Night Flower",
+    "image_url": "https://via.placeholder.com/400"
+  }
+]

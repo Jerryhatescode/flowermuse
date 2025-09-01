@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlowerMuse</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('home') }}">Home</a> |
+        <a href="{{ url_for('flower_list') }}">Flowers</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+    {% block scripts %}{% endblock %}
+</body>
+</html>

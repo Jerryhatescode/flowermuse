@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero-video">
+    <video autoplay muted loop playsinline>
+        <source src="{{ url_for('static', filename='video/into.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="overlay">
+        <h1>FlowerMuse </h1>
+        <p>Your digital flower encyclopedia.</p>
+    </div>
+</div>
+
+<section class="about">
+    <h2>What is FlowerMuse?</h2>
+    <p>
+        FlowerMuse is your elegant guide to the world of flowers.  
+        From timeless roses to exotic lilies, each flower carries a unique story,  
+        a hidden meaning, and a touch of nature's poetry.  
+        Explore, discover, and let every petal inspire you.  
+    </p>
+</section>
+
+<footer>
+    <p>🌿 FlowerMuse &copy; {{ 2025 }} | Designed with elegance 🌿</p>
+</footer>
+{% endblock %}

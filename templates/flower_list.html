@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='list.css') }}">
+
+<div class="flower-filter">
+    <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="Rare / Night">Rare / Night</option>
+        <option value="Medicinal Flower">Medicinal Flower</option>
+        <option value="Poisonous Flower">Poisonous Flower</option>
+    </select>
+</div>
+
+<div class="flower-list" id="flowerList">
+    {% for flower in flowers %}
+    <a href="{{ url_for('flower_detail', flower_id=flower.id) }}" 
+       class="flower-card" 
+       data-category="{{ flower.category }}">
+        <img src="{{ flower.image_url }}" alt="{{ flower.name }}">
+        <h3>{{ flower.name }}</h3>
+    </a>
+    {% endfor %}
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const categoryFilter = document.getElementById("categoryFilter");
+    const cards = document.querySelectorAll(".flower-card");
+
+    categoryFilter.addEventListener("change", function () {
+        const selectedCategory = categoryFilter.value;
+
+        cards.forEach(card => {
+            const cardCategory = card.getAttribute("data-category");
+
+            if (selectedCategory === "all" || cardCategory === selectedCategory) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if flower %}
+<style>
+   /* detail.css */
+   body {
+    font-family: "Georgia", "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    background: #eef0ee; /* light neutral background */
+}
+    .flower-detail {
+        max-width: 600px;
+        margin: 2rem auto;
+        text-align: center;
+        padding: 1.5rem;
+        background: #f7fcf8;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        animation: fadeIn 0.4s ease-in-out;
+    }
+
+    .flower-detail img {
+        width: 320px;
+        height: auto;
+        border-radius: 12px;
+        margin-bottom: 1rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .flower-detail h2 {
+        margin-top: 0.5rem;
+        font-size: 1.8rem;
+        color: #333;
+    }
+
+    .flower-detail p {
+        margin: 0.3rem 0;
+        color: #555;
+        font-size: 1rem;
+    }
+
+    .nav-buttons {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .nav-btn, .back-btn {
+        padding: 0.6rem 1.2rem;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-btn {
+        background: #007BFF;
+        color: white;
+    }
+    .nav-btn:hover {
+        background: #0056b3;
+    }
+
+    .back-btn {
+        background: #f1f1f1;
+        color: #333;
+    }
+    .back-btn:hover {
+        background: #ddd;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+
+<div class="flower-detail">
+    <img src="{{ flower.image_url }}" alt="{{ flower.name }}">
+    <h2>{{ flower.name }}</h2>
+    <p><b>Scientific Name:</b> {{ flower.scientific_name }}</p>
+    <p><b>Location:</b> {{ flower.location }}</p>
+    <p><b>Category:</b> {{ flower.category }}</p>
+    <p><b>History:</b> {{ flower.history }}</p>
+
+    {% if flower.color %}
+        <p><b>Color:</b> {{ flower.color }}</p>
+    {% endif %}
+    {% if flower.meaning %}
+        <p><b>Meaning:</b> {{ flower.meaning }}</p>
+    {% endif %}
+
+    <div class="nav-buttons">
+        {% if prev_id is not none %}
+            <a href="{{ url_for('flower_detail', flower_id=prev_id) }}" class="nav-btn">← Previous</a>
+        {% endif %}
+        <a href="{{ url_for('flower_list') }}" class="back-btn">Back to list</a>
+        {% if next_id is not none %}
+            <a href="{{ url_for('flower_detail', flower_id=next_id) }}" class="nav-btn">Next →</a>
+        {% endif %}
+    </div>
+</div>
+
+<script>
+    // Allow navigation with arrow keys
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "ArrowLeft") {
+            const prev = document.querySelector(".nav-btn:first-child");
+            if (prev) window.location.href = prev.href;
+        } else if (event.key === "ArrowRight") {
+            const next = document.querySelector(".nav-btn:last-child");
+            if (next) window.location.href = next.href;
+        }
+    });
+</script>
+
+{% else %}
+    <p>Flower not found!</p>
+{% endif %}
+{% endblock %}

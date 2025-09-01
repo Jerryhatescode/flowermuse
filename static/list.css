@@ -1,0 +1,73 @@
+/* Flower List Grid */
+body {
+    font-family: "Georgia", "Times New Roman", serif;
+    background: #faf8f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Category Dropdown Position (top-right corner) */
+.flower-filter {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px 0 40px;
+}
+
+.flower-filter select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    font-family: "Georgia", "Times New Roman", serif;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+}
+
+.flower-filter select:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Grid Layout */
+.flower-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 24px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Flower Card */
+.flower-card {
+    background: rgba(255, 255, 255, 0.3); /* stronger glass effect */
+    backdrop-filter: blur(10px);
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+    text-align: center;
+    padding: 18px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flower-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 25px rgba(0,0,0,0.18);
+}
+
+/* Flower Image */
+.flower-card img {
+    width: 100%;
+    height: 220px;          /* slightly taller for elegance */
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+/* Flower Name */
+.flower-card h3 {
+    font-size: 1.25rem;
+    color: #2f5233;         /* deep natural green */
+    margin: 0;
+    letter-spacing: 0.5px;
+}
